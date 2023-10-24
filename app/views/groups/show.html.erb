@@ -1,0 +1,29 @@
+<a class="back-button" href="/groups">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left arrow" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+  </svg>
+</a>
+
+<h1 class='new-category-heading'>Transanctions</h1>
+<% if @categories.empty? %>
+  <h2 class="text-center">There is no transanction for now</h2>
+<% end %>
+<div class="w-10/12 mx-auto">
+    <ul class="transanction-list">
+       <% @categories.each do |category| %>
+        <% @categories_total += category.exchange.amount%>
+       <%end %>
+       <p>Total Amount $<%= @categories_total %></p>
+        <% @categories.each do |category| %>
+          <li class="">
+          <p><%= category.exchange.name %></p>
+           <p class="amount">$<%= category.exchange.amount %></p>
+            <p><%= category.exchange.created_at %></p>
+          </li>
+        <% end %>
+    </ul>
+</div>
+
+<div class="new-category">
+  <%= link_to 'Add New Transanction', new_group_exchange_path(@groups.id) , class: "px-4 py-2 border-2 border-black cursor:pointer" %>
+</div>
