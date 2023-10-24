@@ -56,6 +56,10 @@ To get started with this app, you will need to have Ruby and Rails installed on 
    [live demo](https://budget-app-jncr.onrender.com)
 
 
+## Presentation
+   [Link to video presentation](https://www.loom.com/share/f2b1807206a7435fa97f4c8fc72c71cb?sid=bcc9195e-3dea-4a1c-afb1-698d76ab3f5d)
+
+
 ### Prerequisites
 
 In order to run this project you need:
