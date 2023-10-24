@@ -1,0 +1,24 @@
+<header>
+<h1 class="new-category-heading"><b>Categories</b></h1>
+</header>
+<% if @categories.empty? %>
+  <h2>There is no categories for now</h2>
+<% end %>
+<div >
+    <ul class="categories-list">
+        <% @categories.each do |category| %>
+          <li class="my-6">
+            <% @amount = 0%>
+          <img src=<%=category.icon%> class="images"  alt="Girl in a jacket" width="80" height="80">
+          <% @total.where(group: category).each do | item | %>
+          <% @amount += item.exchange.amount %>
+          <% end %>
+          <%= link_to category.name, "/groups/#{category.id}" %>
+          <p> $<%= @amount%></p>
+          </li>
+        <% end %>
+    </ul>
+</div>
+<div class="new-category button-div">
+  <%= link_to 'Add New Category', new_group_path %>
+</div>
