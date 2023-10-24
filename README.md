@@ -55,8 +55,6 @@ To get started with this app, you will need to have Ruby and Rails installed on 
 ## Live demo
    [live demo](https://budget-app-jncr.onrender.com)
 
-## Presentation
-   [Link to video presentation](https://www.loom.com/share/4e39674f786d401faaa2426e7f04b41b)
 
 ### Prerequisites
 
@@ -71,7 +69,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/tumainimaganiko/budget-app
+  git clone https://github.com/tchasinga/Budget-app-manager.git
   bundle install
 ```
 
@@ -98,11 +96,12 @@ To run tests, run the following commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Tumaini Maganiko**
+👤 **Tchasinga Balolebwami jack**
 
-- GitHub: [@githubhandle](https://github.com/tumainimaganiko)
-- Twitter: [@twitterhandle](https://twitter.com/Chief2maini)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tumainimaganiko/)
+- GitHub: [@tchasingajacques](https://github.com/tchasinga)
+- Twitter: [@tchasinga](https://twitter.com/Tchasinga)
+- LinkedIn: [@tchasinga Jack](https://www.linkedin.com/in/tchasinga-jacques-76aba7214/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +115,7 @@ To run tests, run the following commands:
 
 If you would like to contribute to this app, please feel free to fork the repository and submit a pull request.
 
-Feel free to check the [issues page](https://github.com/tumainimaganiko/budget-app/issues).
+Feel free to check the [issues page](https://github.com/tchasinga/Budget-app-manager/issues/1).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
